@@ -1,0 +1,19 @@
+:root {
+    color-scheme: dark;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(circle at 20% 10%, #1e3a8a, #0b1020 45%, #05070f 100%);
+}
+
+.card-soft {
+    border: 1px solid rgba(255,255,255,.12) !important;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,.06) !important;
+}
+
+.modal-backdrop.show {
+    opacity: 0.7;
+}
