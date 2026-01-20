@@ -28,7 +28,8 @@ cd ReservationService
 
 ---
 
-## Uruchomienie projektu (zalecane)
+## Uruchomienie projektu
+Należy w pierwszej kolejności mieć uruchomiony Docker Desktop
 W katalogu głównym projektu należy wykonać:
 ```bash
 docker compose up -d --build
